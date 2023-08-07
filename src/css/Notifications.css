@@ -1,0 +1,18 @@
+.notify{
+    margin-top : 2%;
+}
+
+.markAllRead{
+    font-size : 20px;
+    margin-left : 8%;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.markAllRead:hover{
+    background-color: red;
+}

@@ -1,0 +1,90 @@
+/* styles.css */
+.cover {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin-top: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.start_date,
+.end_date,
+.image {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.check_label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.login-btn {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  /* Responsive styles for smaller screens */
+  .cover {
+    padding: 10px;
+  }
+
+  .h1 {
+    font-size: 24px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  .check_label {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Additional styles for smaller screens */
+  .h1 {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .check_label {
+    font-size: 14px;
+  }
+}
