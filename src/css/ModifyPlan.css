@@ -1,0 +1,56 @@
+/* Styles for the cover container */
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Styles for the heading */
+
+  .title{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Styles for the input fields */
+  .start_date,
+  .end_date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .check_label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  input[type="date"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styles for the button */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  

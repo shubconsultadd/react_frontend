@@ -1,0 +1,162 @@
+/* TravelPlanPage.css */
+
+/* Container styles */
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  
+}
+
+/* Plan details styles */
+.div_1 {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 600px;
+  text-align: center;
+
+}
+
+.name{
+  font-size : 35px;
+  text-decoration:underline;
+  margin-bottom: 3%;
+}
+
+.description{
+  font-size : 15px;
+  color :#9a0630;
+}
+
+.admin{
+  font-size : 15px;
+  color :#9a0630;
+  margin-bottom: 12px;
+}
+
+.start_date{
+  font-size : 20px;
+  color :#9a0630;
+  margin-bottom: 12px;
+  margin-left: 4%;
+}
+
+.div_1 img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.div_2,
+.div_3,
+.div_4 {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.btn_1,
+.btn_2,
+.btn_3,
+.btn_4,
+.btn_5 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn_1 {
+  background-color: #ff4500;
+}
+
+.btn_2 {
+  background-color: #ffa500;
+}
+
+.btn_3 {
+  background-color: #4caf50;
+}
+
+.btn_4 {
+  background-color: #ff4500;
+}
+
+.btn_5 {
+  background-color: #4caf50;
+}
+
+/* Registered users styles */
+.div_5 {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+}
+
+.registered {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.users ul {
+  list-style: none;
+  padding: 0;
+}
+
+.users li {
+  margin: 5px;
+}
+
+.not_registered {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+/* Error message styles */
+.users {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  background-color: #ffebee;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .div_1 {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .div_1 {
+    padding: 10px;
+  }
+
+  .div_2,
+  .div_3,
+  .div_4 {
+    flex-direction: column;
+  }
+
+  .btn_1,
+  .btn_2,
+  .btn_3,
+  .btn_4,
+  .btn_5 {
+    width: 100%;
+  }
+}
