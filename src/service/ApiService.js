@@ -2,7 +2,7 @@ import axios from "axios";
 
 class ApiService {
     constructor() {
-        this.baseURL = "http://52.66.239.60:8000/backend";
+        this.baseURL = "http://18.224.57.165:8000/backend";
         this.baseURL2 = "http://127.0.0.1:8080/api/v1"
     }
 

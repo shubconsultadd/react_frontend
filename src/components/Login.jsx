@@ -37,7 +37,7 @@ const Login = () => {
     const login = async () => {
         try{
           const apiResponse = await axios.post(
-            'http://52.66.239.60:8000/backend/login',
+            'http://18.224.57.165:8000/backend/login',
             {
               email,
               password
